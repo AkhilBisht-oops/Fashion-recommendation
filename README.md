@@ -6,7 +6,7 @@ A deep learning–powered fashion recommender that suggests visually similar clo
 ---
 
 ## 🚀 Live Demo
-🔗 https://fashion-recommendation-0.streamlit.app  
+🔗 https://fashion-recommendation-02.streamlit.app  
 
 ---
 
@@ -51,3 +51,4 @@ fashion-recommendation/
 ├── requirements.txt
 ├── runtime.txt
 └── fashionRecommendation.ipynb
+
