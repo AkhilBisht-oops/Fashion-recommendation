@@ -156,12 +156,12 @@ class FashionRecommender:
 
 @st.cache_resource
 def load_model():
-    if not os.path.exists('models/fashion_recommender.pkl'):
+    if not os.path.exists('models/fashion_model.pkl'):
         st.error("Model not found! Please train the model first.")
         st.code("python train_myntra_model.py")
         st.stop()
     
-    with open('models/fashion_recommender.pkl', 'rb') as f:
+    with open('models/fashion_model.pkl', 'rb') as f:
         model_data = joblib.load(f)
     
     features = model_data['features']

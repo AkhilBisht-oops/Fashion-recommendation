@@ -1,5 +1,16 @@
+# Python
 venv/
 __pycache__/
 *.pyc
+
+# Models & data
+models/
+myntradataset/
+*.pkl
+
+# Jupyter
 .ipynb_checkpoints/
-.env
+
+# OS
+.DS_Store
+Thumbs.db
